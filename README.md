@@ -5,7 +5,7 @@ Una buena solucion para manejar archivos y carpetas para desarrolladores que no 
 ![PHP File Manager](https://raw.github.com/alexantr/filemanager/master/phpfm.png)
 
 **¡ADVERTENCIA! No use este script como administrador de archivos normal en el área pública.
-Después de todas las acciones, debe eliminar este script del servidor. **
+Después de todas las acciones, debe eliminar este script del servidor.**
 
 ## Requisitos
 
