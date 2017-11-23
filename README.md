@@ -1,28 +1,29 @@
-# PHP File Manager
+# File Manager PHP
 
-A good solution for managing files and folders for developers who can't access site over SSH or FTP.
+Una buena solucion para manejar archivos y carpetas para desarrolladores que no pueden accesar por medio de SSH y FTP.
 
 ![PHP File Manager](https://raw.github.com/alexantr/filemanager/master/phpfm.png)
 
-**WARNING! Do not use this script as regular file manager in public area.
-After all actions you must delete thid script from server.**
+**¡ADVERTENCIA! No use este script como administrador de archivos normal en el área pública.
+Después de todas las acciones, debe eliminar este script del servidor. **
 
-## Requirements
+## Requisitos
 
-- PHP 5.2 or higher.
-- [Zip extension](http://php.net/manual/en/book.zip.php) for zip and unzip actions.
+- PHP 5.2 en adelante.
+- [Zip extension](http://php.net/manual/en/book.zip.php) para comprimir y descomprimir.
 - Fileinfo, iconv and mbstring extensions are strongly recommended.
 
-## How to use
+## Como usarlo
 
-Download ZIP with latest version from master branch.
+Descarga el archivo **Zip** con la última versión de la rama maestra.
 
-Copy **filemanager.php** to your website folder and open it with web browser
-(e.g. http://yoursite/any_path/filemanager.php).
+### Paso #1
+Copia **filemanager.php** a tu sitio web y abrelo con su navegador.
+(e.g. http://tusitioweb.com/carpeta/filemanager.php).
 
-## Security
+## Seguridad
 
-Default username/password: **fm_admin**/**fm_admin**
+Usuario y contraseña por defecto: **admin**/**admin123**
 
 **Warning! Please set your own username and password in `$auth_users` before use.**
 
